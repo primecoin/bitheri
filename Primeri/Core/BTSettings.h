@@ -18,7 +18,10 @@
 
 #import <Foundation/Foundation.h>
 #import "CocoaLumberjack/DDLog.h"
-#import "Bitheri.h"
+#import "Primeri.h"
+
+
+
 
 // tx
 #define CENT 1000000
@@ -101,8 +104,8 @@
 #define MSG_ALERT       @"alert"
 #define MSG_REJECT      @"reject" // described in BIP61: https://gist.github.com/gavinandresen/7079034
 
-#define BITHERI_VERSION @"1.6.5"
-#define BITHERI_NAME @"Bither"
+#define BITHERI_VERSION @"1.0.0"
+#define PRIMERI_NAME @"Primer"
 #define USERAGENT [NSString stringWithFormat:@"/Bither:%@/", BITHERI_VERSION]
 
 #define HEADER_LENGTH      24
